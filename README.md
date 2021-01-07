@@ -18,7 +18,7 @@ The metrics to evaluate model performance would be the mean squared error (mse) 
 
 1.3 Feature Selection
 
-1.4 Model Fitting
+1.4 Modeling 
 
 1.5 Production Code 
   
