@@ -7,7 +7,7 @@ The aim of the project is to build a machine learning model to predict the sale 
 
 # Metrics
 
-The metrics to evaluate model performance would be the mean squared error (mse), the root squared of the mean squared error (rmse), and r square.
+The metrics to evaluate model performance would be the mean squared error (mse), the root of the mean squared error (rmse), and r square.
 
 # Section 1 Model Development
 
@@ -49,11 +49,11 @@ The desired features include:'MSSubClass', 'MSZoning', 'Neighborhood', 'OverallQ
        
 1.4 Modeling 
 
-The rmse and r square of the test set and is 37486 and 0.796 respectively.
+The MSE, rmse and r square of the test set and is 1405259552, 37486 and 0.796 respectively.
 
 ![model](https://user-images.githubusercontent.com/64850893/103930484-d3273c80-50ec-11eb-9b7b-c537d84624d2.jpg)
 
-From the r squaure and the above plot, model does a pretty good job at estimating house prices.
+From the above metrics and plots, the model does a pretty good job at estimating house prices.
 
 The importance of features is as follows:
 
@@ -61,7 +61,7 @@ The importance of features is as follows:
 
 1.5 Summary 
 
-Summarise the key pieces of code, which is necessary to take forward for this project, in order to put the model in production.
+Summarize the key pieces of code, which is necessary to take forward for this project, in order to put the model in production.
 
 
 # Section 2 Production Code 
