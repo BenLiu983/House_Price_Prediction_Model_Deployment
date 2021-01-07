@@ -3,8 +3,7 @@
 
 # Introduction
 
-The aim of the project is to build a machine learning model to predict the sale price of homes based on different explanatory variables describing aspects of residential houses. 
-Predicting house prices is useful to identify fruitful investments, or to determine whether the price advertised for a house is over or under-estimated.
+The aim of the project is to build a machine learning model to predict the sale price of houses based on different explanatory variables describing aspects of residential houses. Predicting house price is useful to identify fruitful investments, or to determine whether the price advertised for a house is over or under-estimated. I will also serve the model via REST API, deploy the model to AWS using Docker.
 
 # Metrics
 
@@ -60,14 +59,21 @@ The importance of features is as follows:
 
 ![feature_imp](https://user-images.githubusercontent.com/64850893/103930672-1e414f80-50ed-11eb-9df7-05bc77369c4e.jpg)
 
-1.5 ML pipeline
+1.5 Summary 
 
-Summarise the key pieces of code to a pipeline, which is necessary to take forward for this project, in order to put the model in production.
+Summarise the key pieces of code, which is necessary to take forward for this project, in order to put the model in production.
+
 
 # Section 2 Production Code 
 
-To be continued
+2.1 Scikit-learn pipeline
+
   
 # Section 3 Model Deployment
 
-To be continued
+3.1 Serve the model via REST API
+
+3.2 Run with Docker
+
+3.3 Deploy the model to AWS
+
