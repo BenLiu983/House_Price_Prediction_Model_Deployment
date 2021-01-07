@@ -58,9 +58,11 @@ From the r squaure and the above plot, model does a pretty good job at estimatin
 
 The importance of features is as follows:
 
-
+![feature_imp](https://user-images.githubusercontent.com/64850893/103930672-1e414f80-50ed-11eb-9df7-05bc77369c4e.jpg)
 
 1.5 ML pipeline
+
+Summarise the key pieces of code to a pipeline, which is necessary to take forward for this project, in order to put the model in production.
 
 # Section 2 Production Code 
 
