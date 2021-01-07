@@ -52,6 +52,13 @@ The desired features include:'MSSubClass', 'MSZoning', 'Neighborhood', 'OverallQ
 
 The rmse and r square of the test set and is 37486 and 0.796 respectively.
 
+![model](https://user-images.githubusercontent.com/64850893/103930484-d3273c80-50ec-11eb-9b7b-c537d84624d2.jpg)
+
+From the r squaure and the above plot, model does a pretty good job at estimating house prices.
+
+The importance of features is as follows:
+
+
 
 1.5 ML pipeline
 
