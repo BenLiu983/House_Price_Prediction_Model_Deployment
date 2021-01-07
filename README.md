@@ -48,7 +48,7 @@ The desired features include:'MSSubClass', 'MSZoning', 'Neighborhood', 'OverallQ
 
        
 1.4 Modeling 
-
+I will the regularized linear regression (LASSO) for the modeling.
 The MSE, rmse and r square of the test set and is 1405259552, 37486 and 0.796 respectively.
 
 ![model](https://user-images.githubusercontent.com/64850893/103930484-d3273c80-50ec-11eb-9b7b-c537d84624d2.jpg)
