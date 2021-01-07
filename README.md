@@ -1,6 +1,6 @@
 # Machine learning Model Development and Deployment
 
-# Section 1 Model development
+# Section 1 Model Development
 
 1.1 Exploratroy Data Analysis (EDA)
 
@@ -10,6 +10,6 @@
 
 1.4 Model Fitting
 
-1.5 Production Code (data Pipeline)
+1.5 Production Code 
   
-# Section 2 Model deployment
+# Section 2 Model Deployment
