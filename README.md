@@ -14,7 +14,10 @@ The metrics to evaluate model performance would be the mean squared error (mse),
 
 1.1 Exploratroy Data Analysis (EDA)
 
-The house price dataset contains 1460 rows, i.e., houses, and 81 columns, i.e., variables.
+The house price dataset contains 1460 rows (houses), and 81 columns (variables/features).
+
+![data](https://user-images.githubusercontent.com/64850893/103929340-239d9a80-50eb-11eb-8bea-3a9d1116fd4f.jpg)
+
 
 **Analyse the dataset to identify:**
 
@@ -28,9 +31,27 @@ The house price dataset contains 1460 rows, i.e., houses, and 81 columns, i.e., 
 
 1.2 Feature Engineering
 
+Pre-process the variables of the House Price Dataset:
+
+1. Missing values: imputation
+2. Temporal variables: manipulation
+3. Non-Gaussian distributed variables: tranformation
+4. Categorical variables: remove rare labels, convert strings to numbers
+5. Standardise the values of the variables to the same range
+
 1.3 Feature Selection
 
+The desired features include:'MSSubClass', 'MSZoning', 'Neighborhood', 'OverallQual', 'OverallCond',
+       'YearRemodAdd', 'RoofStyle', 'MasVnrType', 'BsmtQual', 'BsmtExposure',
+       'HeatingQC', 'CentralAir', '1stFlrSF', 'GrLivArea', 'BsmtFullBath',
+       'KitchenQual', 'Fireplaces', 'FireplaceQu', 'GarageType',
+       'GarageFinish', 'GarageCars', 'PavedDrive'.
+
+       
 1.4 Modeling 
+
+The rmse and r square of the test set and is 37486 and 0.796 respectively.
+
 
 1.5 ML pipeline
 
