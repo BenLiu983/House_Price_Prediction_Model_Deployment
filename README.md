@@ -8,11 +8,23 @@ Predicting house prices is useful to identify fruitful investments, or to determ
 
 # Metrics
 
-The metrics to evaluate model performance would be the mean squared error (mse) and the root squared of the mean squared error (rmse).
+The metrics to evaluate model performance would be the mean squared error (mse), the root squared of the mean squared error (rmse), and r square.
 
 # Section 1 Model Development
 
 1.1 Exploratroy Data Analysis (EDA)
+
+The house price dataset contains 1460 rows, i.e., houses, and 81 columns, i.e., variables.
+
+**Analyse the dataset to identify:**
+
+1. Missing values
+2. Numerical variables
+3. Distribution of the numerical variables
+4. Outliers
+5. Categorical variables
+6. Cardinality of the categorical variables
+7. Potential relationship between the variables and the target: SalePrice
 
 1.2 Feature Engineering
 
@@ -20,6 +32,12 @@ The metrics to evaluate model performance would be the mean squared error (mse) 
 
 1.4 Modeling 
 
-1.5 Production Code 
+1.5 ML pipeline
+
+# Section 2 Production Code 
+
+To be continued
   
-# Section 2 Model Deployment
+# Section 3 Model Deployment
+
+To be continued
